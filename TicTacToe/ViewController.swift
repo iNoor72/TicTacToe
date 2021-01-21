@@ -50,6 +50,7 @@ class ViewController: UIViewController {
         var count = 0
         var iterator = 0
         
+        
         while iterator < buttonStack1.count {
             if (buttonStack1[iterator]?.currentTitle == "-") {
                 count += 1
